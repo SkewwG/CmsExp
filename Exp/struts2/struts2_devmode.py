@@ -14,3 +14,4 @@ class Exploit:
         except:
             #print('test --> struts2_devmode Failed!')
             return None
+#print(Exploit().attack('http://45.33.242.152'))

@@ -13,3 +13,4 @@ class Exploit:
         except:
             #print('test --> struts2_016 Failed!')
             return None
+#print(Exploit().attack('http://207.246.87.203:82/'))

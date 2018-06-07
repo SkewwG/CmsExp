@@ -25,7 +25,7 @@ class Exploit:
 
         except:
             cprint("[-] "+__file__+"====>连接超时", "cyan")
-
+#print(Exploit().attack("http://www.szha.org"))
 # if __name__ == "__main__":
 #     warnings.filterwarnings("ignore")
 #     testVuln = phpcms_product_code_exec_BaseVerify(sys.argv[1])

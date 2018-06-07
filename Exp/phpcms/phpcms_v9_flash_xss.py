@@ -33,7 +33,7 @@ class Exploit:
         except:
             cprint("[-] "+__file__+"====>连接超时", "cyan")
 
-print(Exploit().attack("http://demo.phpcms958.com/"))
+print(Exploit().attack("http://xiaobeike.creditease.cn/"))
 # if __name__ == "__main__":
 #     warnings.filterwarnings("ignore")
 #     testVuln = phpcms_v9_flash_xss_BaseVerify(sys.argv[1])
